@@ -4,8 +4,8 @@ return [
         'db' => [
             'class' => 'yii\db\Connection',
             'dsn' => 'mysql:host=localhost;dbname=yii2advanced',
-            'username' => 'root',
-            'password' => '',
+            'username' => 'local',
+            'password' => 'local',
             'charset' => 'utf8',
         ],
         'mailer' => [
